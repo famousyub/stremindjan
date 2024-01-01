@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'stream/header.html' %}
+    {% block header %}
+    {% endblock %}
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <title>Initial Setup</title>
+</head>
+<body>
+<div class="container">
+    {% csrf_token %}
+    <div id="root"></div>
+</div>
+
+<script src="{% static 'InitialSettings-bundle.js' %}"></script>
+<script src="{% static 'Common-bundle.js' %}"></script>
+</body>
+</html>

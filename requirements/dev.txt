@@ -1,0 +1,12 @@
+-r prod.txt
+black==21.4b2
+django-factory-boy==1.0.0
+flake8==3.9.1
+mypy==0.812
+pytest==6.2.3
+pytest-django==4.2.0
+Sphinx==3.5.4
+sphinx-rtd-theme==0.5.2
+pytest-cov==2.11.1
+pytest-mock==3.6.0
+pytest-env==0.6.2
